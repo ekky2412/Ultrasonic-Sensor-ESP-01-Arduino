@@ -1,0 +1,13 @@
+body{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+} 
+
+table, tr, th, td{
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+}
