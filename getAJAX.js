@@ -1,5 +1,5 @@
 $(function(){ 
-    $(window).on('load', function(){ 
+    // $(window).on('load', function(){ 
         $.ajax({ 
             method: "GET", 
             url: "getrecords_ajax.php",
@@ -14,5 +14,5 @@ $(function(){
             string += '</table>'; 
             $("#records").html(string); 
         }); 
-    }); 
+    // }); 
 }); 
