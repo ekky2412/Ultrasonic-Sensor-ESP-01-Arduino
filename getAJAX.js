@@ -1,5 +1,5 @@
 $(function(){ 
-    $("#getdata").on('click', function(){ 
+    $(window).on('load', function(){ 
         $.ajax({ 
             method: "GET", 
             url: "getrecords_ajax.php",
