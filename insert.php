@@ -12,7 +12,7 @@
 
     if(isset($_GET["jarak"])){
         $stmt = $conn->prepare("INSERT INTO sensor (jarak) VALUES (?)");
-        echo '<script type="text/javascript"  src="getAJAX.js"></script>';
+        // echo '<script type="text/javascript"  src="getAJAX.js"></script>';
         $stmt->bind_param("d",$_GET["jarak"]);
         $stmt->execute();
         $stmt->close();
