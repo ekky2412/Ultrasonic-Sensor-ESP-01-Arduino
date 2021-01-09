@@ -14,7 +14,7 @@
     }
     /* SQL query to get results from database */
     
-    $sql = "SELECT jarak, waktu FROM sensor ";
+    $sql = "SELECT * FROM sensor ORDER BY waktu DESC LIMIT 10";
     
     $result = $conn->query($sql);
     /* If there are results from database push to result array */
