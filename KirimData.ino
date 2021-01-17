@@ -5,9 +5,9 @@
 #define echo_pin 8
 #define trigger_pin 9
 
-String AP = "RAFHY.2324";       // WIFI NAME
-String PASS = "pakdokipunyaanak"; // WIFI PASSWORD
-String HOST = "192.168.100.48";  // UBAH SESUAI DENGAN IP DARI WEBSITENYA
+String AP = " ";       // WIFI NAME
+String PASS = " "; // WIFI PASSWORD
+String HOST = " ";  // UBAH SESUAI DENGAN IP DARI WEBSITENYA
 String PORT = "80";
 int countTrueCommand;
 int countTimeCommand; 
